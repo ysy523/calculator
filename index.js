@@ -235,3 +235,4 @@ bot.on('new_chat_members', (msg) => {
   });
 
 
+  module.exports = bot;
