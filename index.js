@@ -185,7 +185,7 @@ bot.on('callback_query', async(query) => {
 
       break;
    case 'location':
-     await sendLocation(chatId,3.049710,101.618020)
+     await sendLocation(chatId,4.904535824731117, 101.83588250202978)
      break;
     default:
       return null;
@@ -201,6 +201,8 @@ const sendLocation = async (chatId, latitude, longitude) => {
 await bot.sendLocation(chatId, latitude, longitude)
 .then(() => {
   logger.info('Location sent' + latitude + ',,' + longitude)
+  const caption = 'This is my location';
+  return bot.sendMessage(chatId,caption);
 })
 .catch((error) => {
     
