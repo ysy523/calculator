@@ -9,6 +9,8 @@ const bot = new TelegramBot(token, { polling: true });
 
 const http = require('http');
 
+const logger = require("./logger");
+
 const app = express();
 
 // Define the inline keyboard menu options
@@ -102,10 +104,12 @@ const htmlTable = createTextTable(data);
 
 
 bot.on('polling_error', (error) => {
-    console.error(`Polling error: ${error.code} - ${error.response.body.description}`);
+  
+    logger.error(`Polling error: ${error.code} - ${error.response.body.description}`);
     // Handle the specific 403 error
     if (error.code === 'ETELEGRAM' && error.response.statusCode === 403) {
-        console.log('Bot was kicked from the supergroup chat. Stopping interaction with the chat.');
+         logger.error('Bot was kicked from the supergroup chat. Stopping interaction with the chat.');
+
         // You can add additional logic here to handle the situation
     }
 });
@@ -180,7 +184,8 @@ bot.on('callback_query', async(query) => {
 
       break;
     default:
-     await sendMenu(chatId);
+      return null;
+    //  await sendMenu(chatId);
       break;
   }
 
@@ -194,12 +199,6 @@ bot.on('callback_query', async(query) => {
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
-
-  console.log("chat id ---",chatId)
-  console.log("text ---",text)
-
-  console.log("details ---",msg)
-
 
   if (!userStates[chatId]) {
     userStates[chatId] = { stage: 'menu' };
@@ -232,6 +231,16 @@ const sendHelpGuidelines = (chatId ,title) => {
     bot.sendMessage(chatId, guidelines, { parse_mode: 'Markdown' });
   };
 
+  bot.sendTimeoutError = async (chatId) => {
+    const { message_id } = await bot.sendMessage(
+      chatId,
+      '發生了些問題，請再試一次...'
+    )
+    setTimeout(() => {
+      bot.deleteMessage(chatId, message_id)
+    }, 5000)
+  }
+
 // Handle new chat members
 bot.on('new_chat_members', (msg) => {
     const chatId = msg.chat.id;
@@ -245,7 +254,10 @@ bot.on('new_chat_members', (msg) => {
   
   const port = process.env.PORT || 3000;
   app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    logger.info(`${'APP'} started and running on port ${port}`);
+
+   
+    // console.log(`Server is running on port ${port}`);
   });
   
   module.exports = bot;
