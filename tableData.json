@@ -1,0 +1,802 @@
+[
+  {
+    "name": "EWINT",
+    "code": "5283",
+    "price": "0.335",
+    "pe": "-9.44",
+    "dy_yield": "116.42",
+    "link": "https://dividends.my/EWINT-5283"
+  },
+  {
+    "name": "ICTZONE",
+    "code": "03038",
+    "price": "0.22",
+    "pe": "11.96",
+    "dy_yield": "27.36",
+    "link": "https://dividends.my/ICTZONE-03038"
+  },
+  {
+    "name": "UOADEV",
+    "code": "5200",
+    "price": "1.85",
+    "pe": "20.90",
+    "dy_yield": "16.22",
+    "link": "https://dividends.my/UOADEV-5200"
+  },
+  {
+    "name": "TIMECOM",
+    "code": "5031",
+    "price": "5.3",
+    "pe": "3.79",
+    "dy_yield": "16.19",
+    "link": "https://dividends.my/TIMECOM-5031"
+  },
+  {
+    "name": "CRG",
+    "code": "03016",
+    "price": "0.21",
+    "pe": "3.45",
+    "dy_yield": "11.90",
+    "link": "https://dividends.my/CRG-03016"
+  },
+  {
+    "name": "UMSNGB",
+    "code": "7227",
+    "price": "1.1",
+    "pe": "17.30",
+    "dy_yield": "11.82",
+    "link": "https://dividends.my/UMSNGB-7227"
+  },
+  {
+    "name": "CMSB",
+    "code": "2852",
+    "price": "0.935",
+    "pe": "8.73",
+    "dy_yield": "11.76",
+    "link": "https://dividends.my/CMSB-2852"
+  },
+  {
+    "name": "AXJ-REITSETF",
+    "code": "0837EA",
+    "price": "0.735",
+    "pe": "-3.69",
+    "dy_yield": "11.69",
+    "link": "https://dividends.my/AXJ-REITSETF-0837EA"
+  },
+  {
+    "name": "CSCENIC",
+    "code": "7202",
+    "price": "0.48",
+    "pe": "92.31",
+    "dy_yield": "11.46",
+    "link": "https://dividends.my/CSCENIC-7202"
+  },
+  {
+    "name": "MBSB",
+    "code": "1171",
+    "price": "0.76",
+    "pe": "12.01",
+    "dy_yield": "11.18",
+    "link": "https://dividends.my/MBSB-1171"
+  },
+  {
+    "name": "GPHAROS",
+    "code": "5649",
+    "price": "0.425",
+    "pe": "2.41",
+    "dy_yield": "10.82",
+    "link": "https://dividends.my/GPHAROS-5649"
+  },
+  {
+    "name": "MARCO",
+    "code": "3514",
+    "price": "0.185",
+    "pe": "11.86",
+    "dy_yield": "10.81",
+    "link": "https://dividends.my/MARCO-3514"
+  },
+  {
+    "name": "HLIND",
+    "code": "3301",
+    "price": "10.2",
+    "pe": "9.86",
+    "dy_yield": "10.49",
+    "link": "https://dividends.my/HLIND-3301"
+  },
+  {
+    "name": "BAUTO",
+    "code": "5248",
+    "price": "2.45",
+    "pe": "7.55",
+    "dy_yield": "10.41",
+    "link": "https://dividends.my/BAUTO-5248"
+  },
+  {
+    "name": "UPA",
+    "code": "7757",
+    "price": "0.79",
+    "pe": "5.36",
+    "dy_yield": "10.13",
+    "link": "https://dividends.my/UPA-7757"
+  },
+  {
+    "name": "ZHULIAN",
+    "code": "5131",
+    "price": "1.3",
+    "pe": "20.44",
+    "dy_yield": "10.00",
+    "link": "https://dividends.my/ZHULIAN-5131"
+  },
+  {
+    "name": "RPLANET",
+    "code": "03036",
+    "price": "0.2",
+    "pe": "3.85",
+    "dy_yield": "9.55",
+    "link": "https://dividends.my/RPLANET-03036"
+  },
+  {
+    "name": "SUPREME",
+    "code": "03018",
+    "price": "0.645",
+    "pe": "4.46",
+    "dy_yield": "9.05",
+    "link": "https://dividends.my/SUPREME-03018"
+  },
+  {
+    "name": "MBMR",
+    "code": "5983",
+    "price": "4.47",
+    "pe": "5.22",
+    "dy_yield": "8.72",
+    "link": "https://dividends.my/MBMR-5983"
+  },
+  {
+    "name": "TONGHER",
+    "code": "5010",
+    "price": "2.3",
+    "pe": "18.03",
+    "dy_yield": "8.70",
+    "link": "https://dividends.my/TONGHER-5010"
+  },
+  {
+    "name": "AHEALTH",
+    "code": "7090",
+    "price": "2.9",
+    "pe": "5.05",
+    "dy_yield": "8.62",
+    "link": "https://dividends.my/AHEALTH-7090"
+  },
+  {
+    "name": "SENTRAL",
+    "code": "5123",
+    "price": "0.8",
+    "pe": "11.63",
+    "dy_yield": "8.35",
+    "link": "https://dividends.my/SENTRAL-5123"
+  },
+  {
+    "name": "AMWAY",
+    "code": "6351",
+    "price": "7.21",
+    "pe": "10.23",
+    "dy_yield": "8.32",
+    "link": "https://dividends.my/AMWAY-6351"
+  },
+  {
+    "name": "JAYCORP",
+    "code": "7152",
+    "price": "0.725",
+    "pe": "13.48",
+    "dy_yield": "8.28",
+    "link": "https://dividends.my/JAYCORP-7152"
+  },
+  {
+    "name": "HEKTAR",
+    "code": "5121",
+    "price": "0.615",
+    "pe": "6.20",
+    "dy_yield": "8.13",
+    "link": "https://dividends.my/HEKTAR-5121"
+  },
+  {
+    "name": "BETA",
+    "code": "0263",
+    "price": "0.375",
+    "pe": "7.96",
+    "dy_yield": "8.00",
+    "link": "https://dividends.my/BETA-0263"
+  },
+  {
+    "name": "FPI",
+    "code": "9172",
+    "price": "2.96",
+    "pe": "6.45",
+    "dy_yield": "7.77",
+    "link": "https://dividends.my/FPI-9172"
+  },
+  {
+    "name": "AEONCR",
+    "code": "5139",
+    "price": "6.4",
+    "pe": "4.70",
+    "dy_yield": "7.73",
+    "link": "https://dividends.my/AEONCR-5139"
+  },
+  {
+    "name": "BAT",
+    "code": "4162",
+    "price": "8.21",
+    "pe": "12.04",
+    "dy_yield": "7.67",
+    "link": "https://dividends.my/BAT-4162"
+  },
+  {
+    "name": "TALIWRK",
+    "code": "8524",
+    "price": "0.785",
+    "pe": "37.74",
+    "dy_yield": "7.58",
+    "link": "https://dividends.my/TALIWRK-8524"
+  },
+  {
+    "name": "SKYWLD",
+    "code": "5315",
+    "price": "0.565",
+    "pe": "0.54",
+    "dy_yield": "7.52",
+    "link": "https://dividends.my/SKYWLD-5315"
+  },
+  {
+    "name": "UCHITEC",
+    "code": "7100",
+    "price": "3.96",
+    "pe": "13.36",
+    "dy_yield": "7.45",
+    "link": "https://dividends.my/UCHITEC-7100"
+  },
+  {
+    "name": "AMFIRST",
+    "code": "5120",
+    "price": "0.32",
+    "pe": "16.33",
+    "dy_yield": "7.44",
+    "link": "https://dividends.my/AMFIRST-5120"
+  },
+  {
+    "name": "SCICOM",
+    "code": "0099",
+    "price": "1.1",
+    "pe": "13.33",
+    "dy_yield": "7.27",
+    "link": "https://dividends.my/SCICOM-0099"
+  },
+  {
+    "name": "KIPREIT",
+    "code": "5280",
+    "price": "0.89",
+    "pe": "8.31",
+    "dy_yield": "7.19",
+    "link": "https://dividends.my/KIPREIT-5280"
+  },
+  {
+    "name": "RHBBANK",
+    "code": "1066",
+    "price": "5.61",
+    "pe": "7.98",
+    "dy_yield": "7.13",
+    "link": "https://dividends.my/RHBBANK-1066"
+  },
+  {
+    "name": "IGBCR",
+    "code": "5299",
+    "price": "0.495",
+    "pe": "17.81",
+    "dy_yield": "7.05",
+    "link": "https://dividends.my/IGBCR-5299"
+  },
+  {
+    "name": "UOAREIT",
+    "code": "5110",
+    "price": "1.11",
+    "pe": "13.93",
+    "dy_yield": "7.05",
+    "link": "https://dividends.my/UOAREIT-5110"
+  },
+  {
+    "name": "ALLIANZ",
+    "code": "1163",
+    "price": "18.74",
+    "pe": "6.32",
+    "dy_yield": "7.04",
+    "link": "https://dividends.my/ALLIANZ-1163"
+  },
+  {
+    "name": "YTLREIT",
+    "code": "5109",
+    "price": "1.22",
+    "pe": "12.86",
+    "dy_yield": "7.02",
+    "link": "https://dividends.my/YTLREIT-5109"
+  },
+  {
+    "name": "FIMACOR",
+    "code": "3107",
+    "price": "1.79",
+    "pe": "23.83",
+    "dy_yield": "6.98",
+    "link": "https://dividends.my/FIMACOR-3107"
+  },
+  {
+    "name": "MTAG",
+    "code": "0213",
+    "price": "0.43",
+    "pe": "12.68",
+    "dy_yield": "6.98",
+    "link": "https://dividends.my/MTAG-0213"
+  },
+  {
+    "name": "BONIA",
+    "code": "9288",
+    "price": "1.73",
+    "pe": "8.65",
+    "dy_yield": "6.94",
+    "link": "https://dividends.my/BONIA-9288"
+  },
+  {
+    "name": "PANAMY",
+    "code": "3719",
+    "price": "17.86",
+    "pe": "13.13",
+    "dy_yield": "6.83",
+    "link": "https://dividends.my/PANAMY-3719"
+  },
+  {
+    "name": "CIMB",
+    "code": "1023",
+    "price": "6.34",
+    "pe": "9.69",
+    "dy_yield": "6.78",
+    "link": "https://dividends.my/CIMB-1023"
+  },
+  {
+    "name": "TAANN",
+    "code": "5012",
+    "price": "3.69",
+    "pe": "10.39",
+    "dy_yield": "6.78",
+    "link": "https://dividends.my/TAANN-5012"
+  },
+  {
+    "name": "FM",
+    "code": "7210",
+    "price": "0.59",
+    "pe": "9.78",
+    "dy_yield": "6.78",
+    "link": "https://dividends.my/FM-7210"
+  },
+  {
+    "name": "LSH",
+    "code": "03047",
+    "price": "0.88",
+    "pe": "3.56",
+    "dy_yield": "6.72",
+    "link": "https://dividends.my/LSH-03047"
+  },
+  {
+    "name": "CLMT",
+    "code": "5180",
+    "price": "0.64",
+    "pe": "10.49",
+    "dy_yield": "6.72",
+    "link": "https://dividends.my/CLMT-5180"
+  },
+  {
+    "name": "SLIC",
+    "code": "03008",
+    "price": "0.67",
+    "pe": "10.29",
+    "dy_yield": "6.72",
+    "link": "https://dividends.my/SLIC-03008"
+  },
+  {
+    "name": "SPTOTO",
+    "code": "1562",
+    "price": "1.42",
+    "pe": "11.18",
+    "dy_yield": "6.69",
+    "link": "https://dividends.my/SPTOTO-1562"
+  },
+  {
+    "name": "PWRWELL",
+    "code": "0217",
+    "price": "0.3",
+    "pe": "10.83",
+    "dy_yield": "6.67",
+    "link": "https://dividends.my/PWRWELL-0217"
+  },
+  {
+    "name": "INNO",
+    "code": "6262",
+    "price": "1.5",
+    "pe": "13.43",
+    "dy_yield": "6.67",
+    "link": "https://dividends.my/INNO-6262"
+  },
+  {
+    "name": "BIMB",
+    "code": "5258",
+    "price": "2.53",
+    "pe": "10.31",
+    "dy_yield": "6.64",
+    "link": "https://dividends.my/BIMB-5258"
+  },
+  {
+    "name": "TIENWAH",
+    "code": "7374",
+    "price": "0.85",
+    "pe": "14.33",
+    "dy_yield": "6.59",
+    "link": "https://dividends.my/TIENWAH-7374"
+  },
+  {
+    "name": "PARAMON",
+    "code": "1724",
+    "price": "1.07",
+    "pe": "8.05",
+    "dy_yield": "6.54",
+    "link": "https://dividends.my/PARAMON-1724"
+  },
+  {
+    "name": "APOLLO",
+    "code": "6432",
+    "price": "5.45",
+    "pe": "12.38",
+    "dy_yield": "6.42",
+    "link": "https://dividends.my/APOLLO-6432"
+  },
+  {
+    "name": "PANTECH",
+    "code": "5125",
+    "price": "0.935",
+    "pe": "7.78",
+    "dy_yield": "6.42",
+    "link": "https://dividends.my/PANTECH-5125"
+  },
+  {
+    "name": "LTKM",
+    "code": "7085",
+    "price": "1.56",
+    "pe": "4.46",
+    "dy_yield": "6.41",
+    "link": "https://dividends.my/LTKM-7085"
+  },
+  {
+    "name": "MAYBANK",
+    "code": "1155",
+    "price": "9.45",
+    "pe": "12.19",
+    "dy_yield": "6.35",
+    "link": "https://dividends.my/MAYBANK-1155"
+  },
+  {
+    "name": "KFIMA",
+    "code": "6491",
+    "price": "1.9",
+    "pe": "8.32",
+    "dy_yield": "6.32",
+    "link": "https://dividends.my/KFIMA-6491"
+  },
+  {
+    "name": "ORIENT",
+    "code": "4006",
+    "price": "6.38",
+    "pe": "8.67",
+    "dy_yield": "6.27",
+    "link": "https://dividends.my/ORIENT-4006"
+  },
+  {
+    "name": "MHC",
+    "code": "5026",
+    "price": "0.96",
+    "pe": "12.26",
+    "dy_yield": "6.25",
+    "link": "https://dividends.my/MHC-5026"
+  },
+  {
+    "name": "ALAQAR",
+    "code": "5116",
+    "price": "1.28",
+    "pe": "16.64",
+    "dy_yield": "6.17",
+    "link": "https://dividends.my/ALAQAR-5116"
+  },
+  {
+    "name": "KENANGA",
+    "code": "6483",
+    "price": "1.14",
+    "pe": "11.35",
+    "dy_yield": "6.14",
+    "link": "https://dividends.my/KENANGA-6483"
+  },
+  {
+    "name": "LIIHEN",
+    "code": "7089",
+    "price": "0.995",
+    "pe": "9.28",
+    "dy_yield": "6.13",
+    "link": "https://dividends.my/LIIHEN-7089"
+  },
+  {
+    "name": "KMLOONG",
+    "code": "5027",
+    "price": "2.13",
+    "pe": "12.90",
+    "dy_yield": "6.10",
+    "link": "https://dividends.my/KMLOONG-5027"
+  },
+  {
+    "name": "IGBREIT",
+    "code": "5227",
+    "price": "1.72",
+    "pe": "11.94",
+    "dy_yield": "6.09",
+    "link": "https://dividends.my/IGBREIT-5227"
+  },
+  {
+    "name": "SUNREIT",
+    "code": "5176",
+    "price": "1.53",
+    "pe": "16.47",
+    "dy_yield": "6.08",
+    "link": "https://dividends.my/SUNREIT-5176"
+  },
+  {
+    "name": "KOTRA",
+    "code": "0002",
+    "price": "4.8",
+    "pe": "12.73",
+    "dy_yield": "5.83",
+    "link": "https://dividends.my/KOTRA-0002"
+  },
+  {
+    "name": "ABMB",
+    "code": "2488",
+    "price": "3.59",
+    "pe": "8.64",
+    "dy_yield": "5.81",
+    "link": "https://dividends.my/ABMB-2488"
+  },
+  {
+    "name": "PRESTAR",
+    "code": "9873",
+    "price": "0.44",
+    "pe": "5.99",
+    "dy_yield": "5.68",
+    "link": "https://dividends.my/PRESTAR-9873"
+  },
+  {
+    "name": "HEIM",
+    "code": "3255",
+    "price": "22.76",
+    "pe": "17.77",
+    "dy_yield": "5.62",
+    "link": "https://dividends.my/HEIM-3255"
+  },
+  {
+    "name": "LBALUM",
+    "code": "9326",
+    "price": "0.445",
+    "pe": "8.54",
+    "dy_yield": "5.62",
+    "link": "https://dividends.my/LBALUM-9326"
+  },
+  {
+    "name": "PWROOT",
+    "code": "7237",
+    "price": "1.66",
+    "pe": "14.69",
+    "dy_yield": "5.60",
+    "link": "https://dividends.my/PWROOT-7237"
+  },
+  {
+    "name": "HAPSENG",
+    "code": "3034",
+    "price": "4.47",
+    "pe": "13.90",
+    "dy_yield": "5.59",
+    "link": "https://dividends.my/HAPSENG-3034"
+  },
+  {
+    "name": "MATRIX",
+    "code": "5236",
+    "price": "1.75",
+    "pe": "9.03",
+    "dy_yield": "5.57",
+    "link": "https://dividends.my/MATRIX-5236"
+  },
+  {
+    "name": "REXIT",
+    "code": "0106",
+    "price": "0.9",
+    "pe": "12.28",
+    "dy_yield": "5.56",
+    "link": "https://dividends.my/REXIT-0106"
+  },
+  {
+    "name": "FAREAST",
+    "code": "5029",
+    "price": "3.6",
+    "pe": "21.56",
+    "dy_yield": "5.56",
+    "link": "https://dividends.my/FAREAST-5029"
+  },
+  {
+    "name": "CVIEW",
+    "code": "5049",
+    "price": "1.26",
+    "pe": "15.87",
+    "dy_yield": "5.56",
+    "link": "https://dividends.my/CVIEW-5049"
+  },
+  {
+    "name": "PENERGY",
+    "code": "5133",
+    "price": "1.27",
+    "pe": "7.66",
+    "dy_yield": "5.51",
+    "link": "https://dividends.my/PENERGY-5133"
+  },
+  {
+    "name": "AMEREIT",
+    "code": "5307",
+    "price": "1.33",
+    "pe": "9.83",
+    "dy_yield": "5.49",
+    "link": "https://dividends.my/AMEREIT-5307"
+  },
+  {
+    "name": "DSONIC",
+    "code": "5216",
+    "price": "0.45",
+    "pe": "16.73",
+    "dy_yield": "5.44",
+    "link": "https://dividends.my/DSONIC-5216"
+  },
+  {
+    "name": "CIHLDG",
+    "code": "2828",
+    "price": "2.76",
+    "pe": "5.96",
+    "dy_yield": "5.43",
+    "link": "https://dividends.my/CIHLDG-2828"
+  },
+  {
+    "name": "HEXIND",
+    "code": "0161",
+    "price": "0.37",
+    "pe": "24.34",
+    "dy_yield": "5.41",
+    "link": "https://dividends.my/HEXIND-0161"
+  },
+  {
+    "name": "KPPROP",
+    "code": "7077",
+    "price": "0.74",
+    "pe": "3.01",
+    "dy_yield": "5.41",
+    "link": "https://dividends.my/KPPROP-7077"
+  },
+  {
+    "name": "PWF",
+    "code": "7134",
+    "price": "0.93",
+    "pe": "4.44",
+    "dy_yield": "5.38",
+    "link": "https://dividends.my/PWF-7134"
+  },
+  {
+    "name": "KLCC",
+    "code": "5235SS",
+    "price": "7.55",
+    "pe": "14.64",
+    "dy_yield": "5.36",
+    "link": "https://dividends.my/KLCC-5235SS"
+  },
+  {
+    "name": "GENM",
+    "code": "4715",
+    "price": "2.8",
+    "pe": "36.32",
+    "dy_yield": "5.36",
+    "link": "https://dividends.my/GENM-4715"
+  },
+  {
+    "name": "MEDIAC",
+    "code": "5090",
+    "price": "0.125",
+    "pe": "-5.56",
+    "dy_yield": "5.36",
+    "link": "https://dividends.my/MEDIAC-5090"
+  },
+  {
+    "name": "MAGNUM",
+    "code": "3859",
+    "price": "1.13",
+    "pe": "12.91",
+    "dy_yield": "5.31",
+    "link": "https://dividends.my/MAGNUM-3859"
+  },
+  {
+    "name": "RCECAP",
+    "code": "9296",
+    "price": "2.84",
+    "pe": "14.40",
+    "dy_yield": "5.28",
+    "link": "https://dividends.my/RCECAP-9296"
+  },
+  {
+    "name": "MAXIM",
+    "code": "4022",
+    "price": "0.38",
+    "pe": "131.03",
+    "dy_yield": "5.26",
+    "link": "https://dividends.my/MAXIM-4022"
+  },
+  {
+    "name": "ULICORP",
+    "code": "7133",
+    "price": "1.34",
+    "pe": "6.96",
+    "dy_yield": "5.22",
+    "link": "https://dividends.my/ULICORP-7133"
+  },
+  {
+    "name": "INTA",
+    "code": "0192",
+    "price": "0.29",
+    "pe": "6.79",
+    "dy_yield": "5.17",
+    "link": "https://dividends.my/INTA-0192"
+  },
+  {
+    "name": "LPI",
+    "code": "8621",
+    "price": "12.8",
+    "pe": "16.25",
+    "dy_yield": "5.16",
+    "link": "https://dividends.my/LPI-8621"
+  },
+  {
+    "name": "HEXZA",
+    "code": "3298",
+    "price": "0.97",
+    "pe": "28.53",
+    "dy_yield": "5.15",
+    "link": "https://dividends.my/HEXZA-3298"
+  },
+  {
+    "name": "APB",
+    "code": "5568",
+    "price": "1.94",
+    "pe": "26.43",
+    "dy_yield": "5.15",
+    "link": "https://dividends.my/APB-5568"
+  },
+  {
+    "name": "YENHER",
+    "code": "5300",
+    "price": "0.875",
+    "pe": "12.39",
+    "dy_yield": "5.14",
+    "link": "https://dividends.my/YENHER-5300"
+  },
+  {
+    "name": "WELLCAL",
+    "code": "7231",
+    "price": "1.73",
+    "pe": "13.86",
+    "dy_yield": "5.09",
+    "link": "https://dividends.my/WELLCAL-7231"
+  }
+]
