@@ -19,7 +19,8 @@ const menuOptions = {
     inline_keyboard: [
       [{ text: 'Legal Fee Calculator 🧮', callback_data: 'legal_fee_calculator' }],
       [{ text: 'Stamp Duty Calculator 🧮', callback_data: 'stamp_duty_calculator' }],
-      [{ text: 'Detail 🔥', callback_data: 'coming_soon' }]
+      [{ text: 'Detail 🔥', callback_data: 'coming_soon' }],
+      [{ text: 'Location ', callback_data: 'location' }]
     ]
   }
 };
@@ -183,6 +184,9 @@ bot.on('callback_query', async(query) => {
         });
 
       break;
+   case 'location':
+     await sendLocation(chatId,3.049710,101.618020)
+     break;
     default:
       return null;
     //  await sendMenu(chatId);
@@ -193,6 +197,17 @@ bot.on('callback_query', async(query) => {
 });
 
 
+const sendLocation = async (chatId, latitude, longitude) => {
+await bot.sendLocation(chatId, latitude, longitude)
+.then(() => {
+  logger.info('Location sent' + latitude + ',,' + longitude)
+})
+.catch((error) => {
+    
+  logger.error('Error sending location:'+ error)
+   
+});
+}
 
 
 // Handle messages for amount input
@@ -231,15 +246,8 @@ const sendHelpGuidelines = (chatId ,title) => {
     bot.sendMessage(chatId, guidelines, { parse_mode: 'Markdown' });
   };
 
-  bot.sendTimeoutError = async (chatId) => {
-    const { message_id } = await bot.sendMessage(
-      chatId,
-      '發生了些問題，請再試一次...'
-    )
-    setTimeout(() => {
-      bot.deleteMessage(chatId, message_id)
-    }, 5000)
-  }
+
+ 
 
 // Handle new chat members
 bot.on('new_chat_members', (msg) => {
