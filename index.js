@@ -1,4 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
+const express = require('express');
 
 // Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your actual bot token from BotFather
 const token = '7070539474:AAFLAyrf0StDd6W9LCgkR1z6N6FpvL-zkJE';
@@ -7,6 +8,8 @@ const token = '7070539474:AAFLAyrf0StDd6W9LCgkR1z6N6FpvL-zkJE';
 const bot = new TelegramBot(token, { polling: true });
 
 const http = require('http');
+
+const app = express();
 
 // Define the inline keyboard menu options
 const menuOptions = {
@@ -236,11 +239,13 @@ bot.on('new_chat_members', (msg) => {
     sendHelpGuidelines(chatId, title);
   });
 
-  // HTTP server for Vercel
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Bot is running');
-});
-
-module.exports = server;
+  app.get('/', (req, res) => {
+    res.send('Bot is running');
+  });
+  
+  const port = process.env.PORT || 3000;
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
+  
+  module.exports = bot;
