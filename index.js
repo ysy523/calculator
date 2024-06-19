@@ -6,6 +6,8 @@ const token = '7070539474:AAFLAyrf0StDd6W9LCgkR1z6N6FpvL-zkJE';
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
 
+const http = require('http');
+
 // Define the inline keyboard menu options
 const menuOptions = {
   reply_markup: {
@@ -234,5 +236,11 @@ bot.on('new_chat_members', (msg) => {
     sendHelpGuidelines(chatId, title);
   });
 
+  // HTTP server for Vercel
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Bot is running');
+});
 
-  module.exports = bot;
+module.exports = server;
